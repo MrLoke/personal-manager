@@ -37,6 +37,9 @@ const AddItemContainer = styled.div`
 const SelectContainer = styled.div`
   display: flex;
   margin-top: 1rem;
+  ${({ theme }) => theme.media.md} {
+    margin-top: 0rem;
+  }
 `
 
 const items = ['Life', 'Work', 'Sport', 'Hobbie']
