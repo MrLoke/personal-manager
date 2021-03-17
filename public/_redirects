@@ -1,0 +1,3 @@
+/* /index.html 200
+
+służy to do deployowania na netlify jeśli aplikacja używa react routera po odświeżeniu nie wyrzuca błędu 404
